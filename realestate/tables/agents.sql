@@ -1,0 +1,7 @@
+CREATE TABLE Agents (
+    agent_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    license_number VARCHAR(50) UNIQUE NOT NULL
+);
